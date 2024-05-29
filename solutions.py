@@ -12,7 +12,7 @@ def calculate_profit():
     The output should match the format of the following examples: "Profit: $690.00" for sales of $3,000, or "Profit: $2,300.00" for sales of $10,000, etc.
     """
     total_sales = float(input("What's the projected amount of total sales? "))
-    profit = format((total_sales * 0.23), ".2f")
+    profit = format((total_sales * 0.23), ",.2f")
     print("Profit: $" + profit)
 
 
